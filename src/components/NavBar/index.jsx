@@ -16,8 +16,8 @@ import Search from "../Search";
 const NavBar = () => {
   return (
     <S.Nav>
-      <ButtonMenu />
       <S.DivLogo>
+        <ButtonMenu />
         <S.Logo src={Logo} alt="logo" height="55" />
       </S.DivLogo>
       <Search />

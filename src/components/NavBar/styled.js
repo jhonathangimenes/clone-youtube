@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   display: grid;
-  grid-template-columns: 1fr 1fr 9fr 4fr;
+  grid-template-columns: 1fr 9fr 4fr;
 `;
 
 export const DivLogo = styled.div`
   align-items: center;
   display: flex;
+  button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 `;
 
 export const Logo = styled.img`
