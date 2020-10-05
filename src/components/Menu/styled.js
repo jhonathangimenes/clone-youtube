@@ -4,10 +4,10 @@ export const ListLinks = styled.ul`
   list-style-type: none;
   padding: 0 0 0 0;
   margin: 0;
-  width: 240px;
+  width: 250px;
   border: solid 1px #d2dae2;
   z-index: 9999;
-  position: absolute;
+  margin-top: -60px;
   top: 0;
   background-color: #ffff;
   height: 100%;
@@ -27,8 +27,8 @@ export const Link = styled.li`
   cursor: pointer;
 
   svg {
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
     font-size: 20px;
   }
 
@@ -47,8 +47,8 @@ export const TitleGroup = styled.li`
 export const AvatarRegistration = styled.img`
   border-radius: 50%;
   height: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
 `;
 
 export const SplitLink = styled.li`
@@ -69,9 +69,9 @@ export const LinkLogo = styled.li`
   height: 60px;
   cursor: pointer;
 
-  svg {
-    padding-right: 10px;
-    padding-left: 20px;
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 20px;
   }
 `;
