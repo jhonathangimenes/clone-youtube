@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   display: grid;
   grid-template-columns: 1fr 9fr 4fr;
+  height: 60px;
 `;
 
 export const DivLogo = styled.div`
@@ -10,7 +11,7 @@ export const DivLogo = styled.div`
   display: flex;
   button {
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 `;
 

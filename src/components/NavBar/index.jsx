@@ -1,9 +1,6 @@
 import React from "react";
 import * as S from "./styled";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 import Logo from "../../assets/img/logo.png";
 import Avatar from "../Avatar";
 import ButtonCreateVideo from "../buttons/ButtonCreateVideo";
@@ -18,7 +15,7 @@ const NavBar = () => {
     <S.Nav>
       <S.DivLogo>
         <ButtonMenu />
-        <S.Logo src={Logo} alt="logo" height="55" />
+        <S.Logo src={Logo} alt="logo" height="45" />
       </S.DivLogo>
       <Search />
       <S.DivNavigation>

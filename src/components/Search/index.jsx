@@ -8,7 +8,7 @@ const Search = () => {
   return (
     <S.DivSearch>
       <S.DivInput>
-        <S.Input />
+        <S.Input placeholder="Pesquisar" />
         <S.Button>
           <FontAwesomeIcon icon={faSearch} />
         </S.Button>
